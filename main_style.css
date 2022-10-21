@@ -1,0 +1,126 @@
+body{
+  text-align: center;
+    letter-spacing: .05em;
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-family: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont, Segoe UI, Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+    font-size:16px;
+}
+
+h1#prin{
+    text-align: center;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-family: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont, Segoe UI, Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+    font-size:35px;
+}
+
+div#areajuego{
+    display: grid;
+    width: fit-content;
+    grid-template-columns: repeat(4,200px);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(200px, 200px);
+    margin: 0;
+    position: relative;
+    left: 50%;
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+#casilla1 {
+  text-align: center;
+  grid-column: 1;
+  grid-row: 1;
+  background-color: rgb(211, 214, 218);
+}
+#casilla2 {
+  text-align: center;
+  grid-column: 2;
+  grid-row: 1;
+  background-color: rgb(211, 214, 218);
+}
+#casilla3 {
+  text-align: center;
+  grid-column: 3;
+  grid-row: 1;
+  background-color: rgb(211, 214, 218);
+}
+#casilla4 {
+  text-align: center;
+  grid-column: 4;
+  grid-row: 1;
+  background-color: rgb(211, 214, 218);
+}
+.vertcenter{
+  margin: 0;
+  position: relative;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+#conjuntoBotones{
+  width:fit-content;
+  margin: 0;
+  position: relative;
+  left: 50%;
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+#etiquetaNumMovs{
+  width:fit-content;
+  margin: 0;
+  position: relative;
+  left: 50%;
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+.casilla{
+    font-size:20px;
+}
+
+.botonbasico{
+    text-align: center;
+    width:200px;
+    letter-spacing: .05em;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-family: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont, Segoe UI, Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+    font-size:15px;
+    margin-left:10px;
+    margin-top:15px;
+    margin-bottom:15px;
+}
+
+#leyenda {
+  line-height:1.3rem;
+  font-weight:400;
+}
+
+.subverde {
+  font-weight:600;
+  color:rgb(106, 170, 100);
+}
+.subamarillo {
+  font-weight:600;
+  color:rgb(201, 180, 88)
+}
+.subnegro {
+  font-weight:600;
+  color:rgb(120, 124, 126);
+}
+.align-left {
+  text-align: left;
+  font-weight: 500;
+}
+img#ejemplo{
+  position: absolute;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+
+}

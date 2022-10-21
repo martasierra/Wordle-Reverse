@@ -1,0 +1,52 @@
+<!-- 
+    tu piensas una palabra de 4 letras sin que se repita ninguna medinamente comun y 
+el ordenador juega al wordle, prueba a adivinar, 
+tu le corriges con los rtes colores, y contamos movimientos.
+!-->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="main_style.css" rel="stylesheet">
+    <link rel="icon" href="wordle_logo_32x32.png">
+    <title>Wordle Reverse</title>
+</head>
+<body>
+    <h1 id="prin">Wordle Reverse</h1>
+
+    <div id="areajuego">
+        <div class="casilla" id="casilla1">
+            <p id="letra1" class="vertcenter">-</p>
+        </div>
+        <div class="casilla" id="casilla2">
+            <p id="letra2" class="vertcenter">-</p>
+        </div>
+        <div class="casilla" id="casilla3">
+            <p id="letra3" class="vertcenter">-</p>
+        </div>
+        <div class="casilla" id="casilla4">
+            <p id="letra4" class="vertcenter">-</p>
+        </div>
+    </div>
+
+    <div id="leyenda">
+        <p>¿No sabes cómo jugar? <a href="instrucciones.html">Consulta las instrucciones completas aquí.</a> De todas formas, aquí tienes un breve recordatorio:</p>
+        <p><span class="subverde">Verde: </span>La letra está en esa exacta posición.</p>
+        <p><span class="subamarillo">Amarillo: </span>La letra está en la palabra, pero no en esa posición.</p>
+        <p><span class="subnegro">Negro: </span>La letra no está en la palabra.</p>
+        <p><b>¡Cuidado!</b> Si una letra aparece en tu palabra pensada, ¡nunca la pintes de negro!, aunque esté repetida. </p>
+    </div>
+
+    
+    <div id="conjuntoBotones">
+        <button class="botonbasico" onclick="corregido()">¡Prueba otra vez!</button>
+        <button class="botonbasico" onclick="fin()">¡Sí, ésta es mi palabra!</button>
+    </div>
+    <p id="etiquetaNumMovs">Número de palabras probadas: 1</p>
+</body>
+<script src="script.js"></script>
+</html>
+

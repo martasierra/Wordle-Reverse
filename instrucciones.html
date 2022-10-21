@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instrucciones</title>
+    <link href="main_style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="align-left">
+    <h1 id="prin">Instrucciones</h1>
+    <p>Antes de comenzar a jugar, usted debe pensar una palabra que cumpla los siguientes requisitos:</p>
+    <ul>
+        <li>Tiene que tener 4 letras.</li>
+        <li>No puede contener la letra "ñ".</li>
+        <li>No puede ser nombres propios (ni de personas, ni de lugares), pero sí puede ser la conjugación de cualquier verbo.</li>
+    </ul>
+    <hr>
+    <p>Ahora el ordenador va a jugar a adivinar su palabra. Para ello, escribirá una palabra, y tú deberás colorear las letras según la siguiente leyenda:</p>
+    <p><span class="subverde">Verde: </span>La letra está en esa exacta posición.</p>
+    <p><span class="subamarillo">Amarillo: </span>La letra está en la palabra, pero no en esa posición.</p>
+    <p><span class="subnegro">Negro: </span>La letra no está en la palabra.</p>
+    <p>Por ejemplo, si has pensado en la palabra "CASA", y el ordenador prueba con "OSEA", deberás colorearla así:     <img id="ejemplo" src="ejemploCasa.jpg" width=300px></p>
+
+    <p style="font-weight:700">Para colorear las casillas basta con hacer click encima de ellas (1 click → verde, 2 clicks → amarillo, 3 clicks → negro).</p>
+    <hr>
+    <p>Una vez coloreadas las cuatro casillas, pulsa el botón <i>¡Prueba otra vez!</i> para que el ordenador pruebe con otra palabra.</p>
+    <p>Cuando el ordenador acierte la palabra, pulsa el botón <i>¡Sí, ésta es mi palabra!</i>, y podrás volver a jugar.</p>
+    </div>
+    <button class="botonbasico"  onclick="location.href='main.html'">Volver al juego</button>
+</body>
+</html>
